@@ -19,7 +19,7 @@ void main()
 
   printf("\t\t\t\t\t       %s", ctime(&now)); // current time and date will be appear at the top
 
-  printf("\n\t\t\t******************WELCOME TO CODE WITH CURIOUS ATM*******************");
+  printf("\n\t\t\t******************WELCOME TO ABC BANK ATM*******************");
 
   while (pin != entered_pin)
   {
@@ -100,7 +100,7 @@ void main()
 
         printf("\n\t\tYou have deposited rs.%d. Your new balance is %2f", amount, balance);
 
-        printf("\n\t\t****************** Thank you for banking with Code with Curious******************");
+        printf("\n\t\t****************** Thank you for banking with us******************");
 
         amount = 1;
 
